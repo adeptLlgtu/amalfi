@@ -14,7 +14,7 @@ function Price() {
         <div className="price">
             <div className="content">
                 <div className="price-top">
-                    <h2>Цены на основные услуги</h2>
+                    <h2 className="module-title">Цены на основные услуги</h2>
                     <button id="price-btn" className="button">
                         <p>Открыть полный прайс лист</p>
                         <div className="text-background"></div>

@@ -9,9 +9,7 @@ a{
   text-decoration: none;
 }
 
-.content{
 
-}
 
 $pixels: 16px;
 
@@ -258,6 +256,7 @@ $pixels: 16px;
 /* ---- Цены на основные услуги ---- */
 
 .price{
+  margin-bottom: calc-px(140px);
   &-top{
     display: flex;
     flex-direction: row;
@@ -278,6 +277,7 @@ $pixels: 16px;
     display: flex;
     flex-direction: row;
     width: 100%;
+
     border: calc-px(1px) solid #91D5DE;
     padding: calc-px(21.5px) calc-px(20px);
     margin-top: calc-px(30px);
@@ -316,3 +316,238 @@ $pixels: 16px;
     }
   }
 }
+
+.module-title{
+  font-family: Igra Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc-px(50px) !important;
+  line-height: 140%;
+  color: #000000;
+}
+/* ---- Салон и услуги в одном чудесном видео ---- */
+
+.salon{
+  margin-top: 25rem;
+  position: relative;
+  height: calc-px(570.32px);
+  display: flex;
+  flex-direction: column;
+  h2{
+    width: calc-px(660.24px);
+    line-height: 120%;
+  }
+  &-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &-img__background{
+    width: calc-px(470px);
+    height: calc-px(550px);
+    background: #93D2C2;
+  }
+  .video-img{
+    position: absolute;
+    right: 23.96rem;
+    top: 1rem;
+  }
+  .magic{
+    position: absolute;
+    bottom: 2rem;
+    left: 47.55rem;
+  }
+  &-microdescription{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc-px(16px);
+    line-height: 150%;
+    color: #000000;
+    width: 12%;
+    position: absolute;
+    bottom: 4rem;
+  }
+}
+
+
+/* ---- Доверьте работу над красотой именно нам! ---- */
+
+.garanties{
+  margin-top: calc-px(140px);
+  height: calc-px(700.31px);
+  h2{
+    width: 90%;
+    margin-bottom: calc-px(70.68px);
+  }
+  &-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    &__item{
+      display: flex;
+      flex-direction: row;
+      width: 44%;
+      margin-right: calc-px(63px);
+      margin-bottom: calc-px(88.63px);
+      &-img__block{
+        width: 24%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      &-info{
+        display: flex;
+        flex-direction: column;
+        margin-left: calc-px(58px);
+        &__title{
+          font-family: Igra Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: calc-px(30px);
+          line-height: 130%;
+          color: #000000;
+          width: 100%;
+        }
+        &__description{
+          font-family: Manrope;
+          font-style: normal;
+          font-weight: normal;
+          font-size: calc-px(16px);
+          line-height: 150%;
+          color: #000000;
+          margin-top: calc-px(30px);
+          width: 104%;
+        }
+        a{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-top: calc-px(20px);
+          img{
+            margin-left: calc-px(22px);
+          }
+        }
+      }
+    }
+  }
+}
+
+.garanties-container__item[id='gci-1']{
+  margin-left: 0;
+}
+
+.garanties-container__item[id='gci-3']{
+  margin-left: 2rem;
+  width: 41%;
+}
+
+.garanties-container__item-info__link-text[id='link-text-1']{
+    color: #FAB38B;
+}
+
+.garanties-container__item-info__link-text[id='link-text-2']{
+  color: #F388AA;
+}
+
+.garanties-container__item-info__link-text[id='link-text-3']{
+  color: #91D5DE;
+}
+
+
+/* ---- Наши услуги ---- */
+
+
+.services{
+  margin-top: calc-px(140px);
+  h2{
+    margin-bottom: calc-px(70px);
+  }
+  &-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &-column{
+    &__row{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: calc-px(30px);
+      &-item{
+        position: relative;
+        margin-right: calc-px(30px);
+        p{
+          position: absolute;
+          top: calc-px(25px);
+          left: calc-px(26px);
+          font-family: Igra Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: calc-px(20px);
+          line-height: 160%;
+          color: #000000;
+        }
+      }
+      &-item[id='ri-1']{
+        width: calc-px(270px);
+        height: calc-px(270px);
+        background: url("./assets/img/services/manikur.png");
+      }
+      &-item[id='ri-2']{
+        width: calc-px(270px);
+        height: calc-px(270px);
+        background: url("./assets/img/services/pedikur.png");
+      }
+      &-item[id='ri-3']{
+        width: calc-px(270px);
+        height: calc-px(270px);
+        background: url("./assets/img/services/hands.png"), #E7E7E7;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+      }
+      &-item[id='ri-4']{
+        width: calc-px(344.7px);
+        height: calc-px(270px);
+        background: url("./assets/img/services/cover.png");
+      }
+      &-item[id='ri-5']{
+        width: calc-px(495px);
+        height: calc-px(270px);
+        background: url("./assets/img/services/hands_2.png"), #E7E7E7;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+      }
+      &-item[id='ri-6']{
+        width: calc-px(270px);
+        height: calc-px(270px);
+        background: url("./assets/img/services/brow_bar.png");
+      }
+      &-item[id='ri-7']{
+        width: calc-px(270px);
+        height: calc-px(270px);
+        background: url("./assets/img/services/brow.png");
+      }
+      &-item[id='ri-8']{
+        width: calc-px(270px);
+        height: calc-px(270px);
+        background: url("./assets/img/services/resnitsi.png");
+      }
+      &-item[id='ri-9']{
+        width: calc-px(270px);
+        height: calc-px(470px);
+        background: url("./assets/img/services/dop_services.png");
+        margin-bottom: calc-px(30px);
+      }
+      &-item[id='ri-10']{
+        width: calc-px(270px);
+        height: calc-px(270px);
+        background: url("./assets/img/services/resnitsi_2.png");
+      }
+    }
+  }
+}
+
+
+

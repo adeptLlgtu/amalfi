@@ -1,6 +1,9 @@
 import NavHead from "./components/NavHead";
 import TopBanner from "./components/TopBanner";
 import Price from "./components/Price";
+import SalonVideo from "./components/SalonVideo";
+import Garanties from "./components/Garanties";
+import Services from "./components/Services";
 
 
 
@@ -15,6 +18,9 @@ function App() {
       <NavHead></NavHead>
         <TopBanner></TopBanner>
         <Price></Price>
+      <SalonVideo></SalonVideo>
+        <Garanties></Garanties>
+        <Services></Services>
     </div>
   );
 }
