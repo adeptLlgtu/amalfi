@@ -384,12 +384,12 @@ $pixels: 16px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 106%;
     justify-content: space-between;
     &__item{
       display: flex;
       flex-direction: row;
-      width: 44%;
+      width: 42%;
       margin-right: calc-px(63px);
       margin-bottom: calc-px(88.63px);
       &-img__block{
@@ -439,10 +439,6 @@ $pixels: 16px;
   margin-left: 0;
 }
 
-.garanties-container__item[id='gci-3']{
-  margin-left: 2rem;
-  width: 41%;
-}
 
 .garanties-container__item-info__link-text[id='link-text-1']{
     color: #FAB38B;
@@ -462,6 +458,7 @@ $pixels: 16px;
 
 .services{
   margin-top: calc-px(140px);
+  height: 62rem;
   h2{
     margin-bottom: calc-px(70px);
   }
@@ -548,6 +545,209 @@ $pixels: 16px;
     }
   }
 }
+
+
+/* ---- Принимаем меры для заботы о клиентах и сотрудниках ---- */
+
+
+.care{
+  height: 35rem;
+  h2{
+    margin-top: calc-px(140px);
+    margin-bottom: calc-px(80px);
+  }
+  &-slider{
+    height: calc-px(558px);
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    .slider-button{
+      background: transparent;
+      border: 0;
+      cursor: pointer;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      height: 32.5rem;
+      &__ring{
+        width: calc-px(60px);
+        height: calc-px(60px);
+        border-radius: 10em;
+        background: #FAB38B;
+      }
+    }
+    &__item{
+      position: relative;
+      width: calc-px(283px);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      &-number{
+        font-family: Igra Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100px;
+        line-height: 160%;
+      }
+      &-title{
+        font-family: Igra Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc-px(20px);
+        line-height: 20px;
+        color: #000000;
+        margin: calc-px(20px) 0;
+      }
+      &-description{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc-px(14px);
+        line-height: 150%;
+        color: #000000;
+      }
+    }
+  }
+}
+
+.care-slider__item[id='csi-1']{
+  margin-left: calc-px(100.5px);
+  .care-slider__item-number{
+    color: #F388AA !important;
+    position: absolute;
+    left: -3.5rem;
+    z-index: -1;
+  }
+}
+
+.care-slider__item[id='csi-2']{
+  .care-slider__item-number{
+    color: #91D5DE !important;
+    position: absolute;
+    left: -3.5rem;
+    z-index: -1;
+  }
+}
+
+.care-slider__item[id='csi-3']{
+  margin-right: calc-px(100.5px);
+  .care-slider__item-number{
+    color: #FAB38B !important;
+    position: absolute;
+    left: -3.5rem;
+    z-index: -1;
+  }
+}
+
+.slider-button-prev{
+  position: absolute;
+  left: 0;
+  img{
+    transform: rotate(180deg);
+    opacity: 0.5;
+    position: absolute;
+    left: calc-px(17.96px);
+  }
+  .slider-button__ring{
+    opacity: 0.5;
+  }
+}
+
+.slider-button-next{
+  position: absolute;
+  right: 0;
+  img{
+    position: absolute;
+    right: calc-px(17.96px);
+  }
+}
+
+
+/* ---- Наши работы ---- */
+
+
+.works{
+  height: calc-px(710px);
+  .price-top{
+    margin-top: 15.75rem;
+    margin-bottom: calc-px(70px);
+    button{
+      p{
+        margin-right: 0.8rem !important;
+      }
+    }
+  }
+  &-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.works-container__column[id='wcc-1']{
+  width: calc-px(570px);
+  height: calc-px(570px);
+  background: url("./assets/img/works/nails_1.png");
+}
+
+.works-container__column[id='wcc-2']{
+  width: calc-px(570px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .works-container__column-item{
+    margin-bottom: calc-px(30px);
+  }
+  .works-container__column-item[id='wcci-1']{
+    width: calc-px(170px);
+    height: calc-px(170px);
+    background: url("./assets/img/works/nails_2.png");
+  }
+  .works-container__column-item[id='wcci-2']{
+    width: calc-px(170px);
+    height: calc-px(170px);
+    background: url("./assets/img/works/nails_3.png");
+  }
+  .works-container__column-item[id='wcci-3']{
+    width: calc-px(170px);
+    height: calc-px(170px);
+    background: url("./assets/img/works/nails_4.png");
+  }
+  .works-container__column-item[id='wcci-4']{
+    width: calc-px(170px);
+    height: calc-px(170px);
+    background: url("./assets/img/works/eye_1.png");
+  }
+  .works-container__column-item[id='wcci-5']{
+    width: calc-px(170px);
+    height: calc-px(170px);
+    background: url("./assets/img/works/nails_5.png");
+  }
+  .works-container__column-item[id='wcci-6']{
+    width: calc-px(170px);
+    height: calc-px(170px);
+    background: url("./assets/img/works/eye_2.png");
+  }
+  .works-container__column-item[id='wcci-7']{
+    width: calc-px(170px);
+    height: calc-px(170px);
+    background: url("./assets/img/works/eye_3.png");
+  }
+  .works-container__column-item[id='wcci-8']{
+    width: calc-px(170px);
+    height: calc-px(170px);
+    background: url("./assets/img/works/nails_6.png");
+  }
+  .works-container__column-item[id='wcci-9']{
+    width: calc-px(170px);
+    height: calc-px(170px);
+    background: url("./assets/img/works/nails_7.png");
+  }
+}
+
+
 
 
 

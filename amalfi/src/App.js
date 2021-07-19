@@ -4,6 +4,8 @@ import Price from "./components/Price";
 import SalonVideo from "./components/SalonVideo";
 import Garanties from "./components/Garanties";
 import Services from "./components/Services";
+import Care from "./components/Care";
+import OurWorks from "./components/OurWorks";
 
 
 
@@ -21,6 +23,8 @@ function App() {
       <SalonVideo></SalonVideo>
         <Garanties></Garanties>
         <Services></Services>
+        <Care></Care>
+        <OurWorks></OurWorks>
     </div>
   );
 }
