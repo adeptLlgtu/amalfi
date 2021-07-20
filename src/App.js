@@ -9,6 +9,8 @@ import OurWorks from "./components/OurWorks";
 import Battle from "./components/Battle";
 import Recension from "./components/Recension";
 import Gifts from "./components/Gifts";
+import Happy from "./components/Happy";
+import Photos from "./components/Photos";
 
 
 
@@ -31,6 +33,8 @@ function App() {
       <Battle></Battle>
         <Recension></Recension>
         <Gifts></Gifts>
+        <Happy></Happy>
+        <Photos></Photos>
     </div>
   );
 }
