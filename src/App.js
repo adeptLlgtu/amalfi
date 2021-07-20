@@ -6,6 +6,9 @@ import Garanties from "./components/Garanties";
 import Services from "./components/Services";
 import Care from "./components/Care";
 import OurWorks from "./components/OurWorks";
+import Battle from "./components/Battle";
+import Recension from "./components/Recension";
+import Gifts from "./components/Gifts";
 
 
 
@@ -25,6 +28,9 @@ function App() {
         <Services></Services>
         <Care></Care>
         <OurWorks></OurWorks>
+      <Battle></Battle>
+        <Recension></Recension>
+        <Gifts></Gifts>
     </div>
   );
 }
